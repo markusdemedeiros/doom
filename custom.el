@@ -22,3 +22,5 @@
            (getenv "PATH")))
 
 (setq doc-view-resolution 400)
+
+(setq-hook! 'lean4-mode-hook comment-line-break-function nil)
